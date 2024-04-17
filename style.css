@@ -76,14 +76,27 @@ header ul li a{
 form label{
   display: block;
 }
-form{
-  text-align:center ;
+form {
+  text-align: center;
 }
 form label{
-  width: 400px;
-margin: 0 auto;
+width: 400px;
+margin: 10px auto;  
+font-size: 20px;
+
 }
 form input{
   width: 100%;
   padding: 10px 0;
+}
+.whatsapp a {
+  width: 150px;
+  position: fixed;
+  bottom: 0;
+  right: 150px;
+  padding: 20px;
+  background: green;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
 }
